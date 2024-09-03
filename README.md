@@ -58,3 +58,17 @@ Vamos criar um Star Schema onde 'Professor' será nossa tabela fato para objeto 
 ## Granularidade
 
 A tabela data foi ajustada para diferentes níveis de granularidade como Ano, Mês, Dia, Trimestre e Semestre.
+
+---
+<br>
+<br>
+</br>
+
+
+# Star Schema Financials com DAX
+
+Utilizaremos a tabela única de Financial Sample para criar as tabelas dimensão e fato do nosso modelo baseado em star schema.
+
+O processo consiste na criação das tabelas com base na tabela original. A partir da cópia serão selecionadas as colunas que irão compor a visão da nova tabela.
+
+![dados]()
