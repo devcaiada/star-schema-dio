@@ -1,8 +1,8 @@
 # Desafio de Modelagem Dimensional
 
-Vamos criar um Star Schema onde 'Professor' será nosso objeto de análise.
+Vamos criar um Star Schema onde 'Professor' será nossa tabela fato para objeto de análise.
 
-![tabela_fato]()
+![tabela_fato](https://github.com/devcaiada/star-schema-professor/blob/main/assets/Fato_Professor.png?raw=true)
 
 ## Tabela Fato: Fato_Professor
 
@@ -54,3 +54,7 @@ Vamos criar um Star Schema onde 'Professor' será nosso objeto de análise.
 - **Fato_Professor** se relaciona com **Dim_Curso** através de **ID_Curso**.
 - **Fato_Professor** se relaciona com **Dim_Departamento** através de **ID_Departamento**.
 - **Fato_Professor** se relaciona com **Dim_Data** através de **ID_Data**.
+
+## Granularidade
+
+A tabela data foi ajustada para diferentes níveis de granularidade como Ano, Mês, Dia, Trimestre e Semestre.
